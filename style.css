@@ -12,3 +12,11 @@
     align-items: center;
     padding: 6px 16px;
 }
+
+.header-container button{
+    background-color: hsl(0, 85%, 75%);
+    padding: 12px 19px;
+    font-size: 16px;
+    border: none;
+    color: hsl(0, 8%, 93%);
+}
