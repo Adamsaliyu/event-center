@@ -2,3 +2,13 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+/*<!-- ---------------HEADING------------------- -->*/
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 6px 16px;
+}
