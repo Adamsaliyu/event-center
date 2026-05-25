@@ -52,3 +52,14 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+/*<!-- ---------------SUB BODY------------------- -->*/
+
+.sud-body-container {
+    background-color: rgb(233, 229, 229);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
