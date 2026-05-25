@@ -102,3 +102,10 @@
     background-color: hsl(0, 100%, 79%);
 
 }
+
+/*<!-- ---------------SUB BODY------------------- -->*/
+
+.view-container {
+    min-height: 100vh;
+    display: flex;
+}
