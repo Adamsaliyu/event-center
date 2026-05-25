@@ -60,6 +60,41 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+#sud-body-container-p1{
+    color: red;
+    font-size: 80px;
+    margin: 30px;
+
+}
+
+#sud-body-container-icon {
+    color: red;
+    font-size: 40px;
+}
+
+#sud-body-container-p2 {
+    color: red; 
+    font-size: 40px; 
+    text-align: center;
+}
+
+#sud-body-container-p3 {
+    color: red; 
+    font-size: 40px; 
+    text-align: center;
+}
+
+#sud-body-container-button {
+    background-color: hsl(0, 85%, 75%);
+    padding: 12px 19px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: hsl(0, 8%, 93%);
+    cursor: pointer;
+    transition: 0.4s;
 }
