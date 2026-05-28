@@ -85,6 +85,151 @@
 
     
     <!------------------CTA--------------------->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Signup Footer</title>
 
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f8f5f1;
+}
+
+/* FOOTER SECTION */
+.newsletter{
+    padding:80px 10%;
+    background:#f7f4ef;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+/* LEFT IMAGE */
+.newsletter-image img{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+}
+
+/* CENTER CONTENT */
+.newsletter-content{
+    max-width:400px;
+}
+
+.newsletter-content h2{
+    font-size:28px;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.newsletter-content p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.newsletter-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.newsletter-form input{
+    padding:18px;
+    border:none;
+    background:white;
+    font-size:16px;
+    outline:none;
+}
+
+.newsletter-form button{
+    width:160px;
+    padding:16px;
+    border:1px solid #444;
+    background:transparent;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.newsletter-form button:hover{
+    background:#222;
+    color:white;
+}
+
+/* RIGHT LINKS */
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#444;
+    font-size:15px;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+
+/* MOBILE */
+@media(max-width:900px){
+    .newsletter{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .newsletter-form button{
+        margin:auto;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<section class="newsletter">
+
+    <!-- IMAGE -->
+    <div class="newsletter-image">
+        <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800" alt="">
+    </div>
+
+    <!-- CONTENT -->
+    <div class="newsletter-content">
+        <p>
+            Sign up to receive updates and 10% off your first purchase.
+        </p>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">SIGN UP</button>
+        </form>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-links">
+        <a href="#">Shop</a>
+        <a href="#">Journal</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Shipping & Returns</a>
+    </div>
+
+</section>
+
+</body>
+</html>
 </body>
 </html>
